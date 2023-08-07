@@ -1,0 +1,20 @@
+.mi-boton {
+    width: 100%;
+    height: 90px;
+    background-color: #ff69b4; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 24px; 
+    position: relative; 
+    overflow: hidden; 
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+
+  }
+
+  /* Efecto de brillo en hover */
+  .mi-boton:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8), 0 0 20px 10px rgba(255, 105, 180, 0.8); /* Brillo externo */
+  }
